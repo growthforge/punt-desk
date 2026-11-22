@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-23",
+  "day": "Monday",
+  "status": "pending",
+  "headline": "Plan coming by 08:30 London",
+  "summary": "The full plan (free-bet offers first, then extra-place races, any value picks, and the line-up check) is built from 07:00 and published here. No picks yet.",
+  "updated_london": "2026-11-22 19:45",
+  "matched_betting": [],
+  "extra_place": [],
+  "value_picks": [],
+  "checks": [
+    {
+      "area": "Football (UK)",
+      "events": ["Brentford v Everton, 20:00"],
+      "result": "No pick yet. Re-check on Monday and again about 18:45 once line-ups are out.",
+      "source": "Betfred vs Betfair Exchange",
+      "fetched_london": "2026-11-22 evening"
+    }
+  ],
+  "notes": []
+}

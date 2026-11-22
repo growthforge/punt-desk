@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Punt · Value Desk</title>
+<meta name="description" content="Daily value plan and practice wallet. Model estimates, not guarantees.">
+<meta name="theme-color" content="#0b1220">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><img src="icons/icon-192.png" alt="" width="28" height="28"><span>Punt · Value Desk</span></div>
+  <button id="installBtn" class="btn small" hidden>Install</button>
+</header>
+<nav>
+  <button data-tab="today" class="active">Today</button>
+  <button data-tab="wallet">Wallet</button>
+  <button data-tab="history">History</button>
+  <button data-tab="notify">Alerts</button>
+</nav>
+<main>
+  <section id="today" class="tab active"></section>
+  <section id="wallet" class="tab"></section>
+  <section id="history" class="tab"></section>
+  <section id="notify" class="tab">
+    <h2>Get notifications</h2>
+    <p>Alerts come through <b>ntfy</b>, a free notification app. No account needed.</p>
+    <ol>
+      <li>Install <b>ntfy</b>: <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a> · <a href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a></li>
+      <li>Tap the button below (or in the app tap <b>+</b> and type the topic).</li>
+    </ol>
+    <p><a class="btn" href="ntfy://ntfy.sh/punt-desk-13e9460f16231f79">Subscribe in the ntfy app</a></p>
+    <p><a class="btn ghost" href="https://ntfy.sh/punt-desk-13e9460f16231f79" target="_blank" rel="noopener">Open in browser (web push)</a></p>
+    <p class="muted">Topic: <code>punt-desk-13e9460f16231f79</code><br>In the browser page, tap the bell / "Subscribe" and allow notifications.</p>
+  </section>
+</main>
+<footer>
+  <p><b>Model estimates, not guarantees.</b> Re-check the live price before staking. Only bet money you can afford to lose.</p>
+  <p>National Gambling Helpline: <a href="tel:08088020133">0808 8020 133</a> (24/7, free) · Self-exclude: <a href="https://www.gamstop.co.uk" target="_blank" rel="noopener">GAMSTOP</a> · <a href="https://www.begambleaware.org" target="_blank" rel="noopener">BeGambleAware</a></p>
+  <p class="muted" id="ver"></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

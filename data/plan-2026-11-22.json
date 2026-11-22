@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-22",
+  "day": "Sunday",
+  "status": "settled",
+  "headline": "No bet tonight: no-value night",
+  "summary": "Every Betfred price checked was worse than the Betfair Exchange fair price. Greyhound markets were too thin to set a fair price. 0 bets.",
+  "updated_london": "2026-11-22 19:45",
+  "matched_betting": [],
+  "extra_place": [],
+  "value_picks": [],
+  "checks": [
+    {
+      "area": "Football (evening, still to kick off)",
+      "events": ["Atalanta v Inter", "Marseille v Le Mans", "Getafe v Atletico", "Burgos v Albacete"],
+      "result": "No value. Every Betfred price was worse than fair. Closest: Atletico at 8/15, about 2% worse than fair.",
+      "source": "Betfred prices vs Betfair Exchange (fair price)",
+      "fetched_london": "19:28-19:31"
+    },
+    {
+      "area": "Greyhounds (Kinsley, Clonmel)",
+      "events": ["Kinsley races still to run", "Clonmel races still to run"],
+      "result": "No bet. Clonmel had no Betfair Exchange market. Kinsley had almost no money matched (about £0-£79 per race), so no reliable fair price.",
+      "source": "Betfair Exchange",
+      "fetched_london": "evening, 22 Nov"
+    }
+  ],
+  "notes": ["Cash bets at the shop counter can't be covered on the exchange."]
+}
