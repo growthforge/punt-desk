@@ -4,7 +4,14 @@
   "start_date": "2026-11-23",
   "balance": 100.0,
   "note": "Practice (paper) money only. Not real bets.",
-  "updated_london": "2026-11-23 07:25",
+  "updated_london": "2026-11-23 22:38",
   "bets": [],
-  "days": []
+  "days": [
+    {
+      "date": "2026-11-23",
+      "bets": 0,
+      "pnl": 0.0,
+      "balance": 100.0
+    }
+  ]
 }

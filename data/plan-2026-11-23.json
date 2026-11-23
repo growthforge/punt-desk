@@ -1,23 +1,23 @@
 {
   "date": "2026-11-23",
   "day": "Monday",
-  "status": "open",
-  "headline": "Free-bet offer first, extra places to watch, no value bets yet",
-  "summary": "1) If you've never had a Betfred account, the Betfred sign-up offer (bet £10, get £30 sports + £20 bet builder free bets) is worth about £20 locked in by matched betting. 2) 11 races today pay an extra place (Huntingdon, Bangor, Newcastle, Wolverhampton; none at Kempton). They're on the watch list, not picks. 3) No value bets: every bookie price on Brentford v Everton is below the Betfair fair price. Practice wallet: 0 paper bets so far, £100.00.",
-  "updated_london": "2026-11-23 07:25",
+  "status": "settled",
+  "headline": "No paper bets; practice wallet unchanged at \u00a3100",
+  "summary": "1) If you've never had a Betfred account, the Betfred sign-up offer (bet \u00a310, get \u00a330 sports + \u00a320 bet builder free bets) is worth about \u00a320 locked in by matched betting. 2) 11 races today pay an extra place (Huntingdon, Bangor, Newcastle, Wolverhampton; none at Kempton). They're on the watch list, not picks. 3) No value bets: every bookie price on Brentford v Everton is below the Betfair fair price. Practice wallet: 0 paper bets so far, \u00a3100.00. End of day: 0 paper bets logged, practice wallet still \u00a3100.00.",
+  "updated_london": "2026-11-23 22:38",
   "matched_betting": [
     {
-      "offer": "Bet £10, get £30 Sports Free Bets + £20 Bet Builder Free Bets (new customers only)",
+      "offer": "Bet \u00a310, get \u00a330 Sports Free Bets + \u00a320 Bet Builder Free Bets (new customers only)",
       "book": "Betfred (UK licensed, not part of Flutter/Entain/Evoke)",
       "steps": [
         "Only do this if you have NEVER had a Betfred account. Please tell me which bookies you already have accounts with.",
-        "You need a Betfair Exchange account with about £90 in it (£27 for step 4 + £58 for step 7). Both bets are placed by you; I never place anything.",
-        "Join Betfred and deposit £10 with a debit card (the T&Cs say there are payment exclusions, so use a debit card, not PayPal or Skrill).",
-        "QUALIFYING BET: back £10 at evens (2.0) or bigger at Betfred. Example: Brentford v Everton DRAW @ 3.6. On Betfair, LAY the same draw: £9.86 at 3.7 (liability £26.63). Either way you lose about £0.63. Use the real prices at the time with the calculator.",
+        "You need a Betfair Exchange account with about \u00a390 in it (\u00a327 for step 4 + \u00a358 for step 7). Both bets are placed by you; I never place anything.",
+        "Join Betfred and deposit \u00a310 with a debit card (the T&Cs say there are payment exclusions, so use a debit card, not PayPal or Skrill).",
+        "QUALIFYING BET: back \u00a310 at evens (2.0) or bigger at Betfred. Example: Brentford v Everton DRAW @ 3.6. On Betfair, LAY the same draw: \u00a39.86 at 3.7 (liability \u00a326.63). Either way you lose about \u00a30.63. Use the real prices at the time with the calculator.",
         "The bet must settle within 7 days. The free bets arrive within 24 hours of settlement and expire after 7 days.",
-        "FREE BET (£30 sports): back a selection at odds of about 3.5-5 with the free bet (stake not returned), and lay it on Betfair.",
-        "Example: free bet at 3.6, lay £21.37 at 3.7 (liability £57.70), and you keep about £20.30 whatever happens. At 5.0/5.2 you keep about £22.14 but the liability is £97.86.",
-        "The £20 Bet Builder free bets can't be laid cleanly. Treat them as fun-pot bets, not locked profit.",
+        "FREE BET (\u00a330 sports): back a selection at odds of about 3.5-5 with the free bet (stake not returned), and lay it on Betfair.",
+        "Example: free bet at 3.6, lay \u00a321.37 at 3.7 (liability \u00a357.70), and you keep about \u00a320.30 whatever happens. At 5.0/5.2 you keep about \u00a322.14 but the liability is \u00a397.86.",
+        "The \u00a320 Bet Builder free bets can't be laid cleanly. Treat them as fun-pot bets, not locked profit.",
         "Calculator: python3 matched_bet_calc.py --mode snr --stake 30 --back X --lay Y --commission 0.05 (or I'll run it for you). Re-check both prices just before you place."
       ],
       "est_profit": 19.67,
@@ -131,7 +131,7 @@
     {
       "area": "Football: Brentford v Everton, 20:00",
       "events": [
-        "Fair (de-vigged Betfair): Brentford 2.26 · Draw 3.64 · Everton 3.53",
+        "Fair (de-vigged Betfair): Brentford 2.26 \u00b7 Draw 3.64 \u00b7 Everton 3.53",
         "Best books: 2.15 / 3.6 / 3.3"
       ],
       "result": "No value. EV: Brentford -5.0%, Draw -1.0%, Everton -6.6% (model estimates). Re-check at about 18:45 once line-ups are out. Only bet if a price beats fair by 3% or more.",
@@ -169,6 +169,7 @@
   "notes": [
     "Every probability is a model estimate. Re-check live prices before staking. No guaranteed wins.",
     "Bookies sometimes change extra-place terms during the day, so confirm the E/W terms on the bookie's own race page before betting.",
-    "Practice wallet: matched-betting and extra-place items aren't paper bets until a price passes the rules. 0 paper bets so far."
+    "Practice wallet: matched-betting and extra-place items aren't paper bets until a price passes the rules. 0 paper bets so far.",
+    "Settled 23 Nov 22:38 London: 0 paper bets, day P&L \u00a30.00, wallet \u00a3100.00. Morning findings unchanged; the 18:45 Brentford re-check was offered and not run."
   ]
 }
