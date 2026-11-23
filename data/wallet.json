@@ -1,10 +1,10 @@
 {
   "currency": "GBP",
-  "start_balance": 100.00,
+  "start_balance": 100.0,
   "start_date": "2026-11-23",
-  "balance": 100.00,
+  "balance": 100.0,
   "note": "Practice (paper) money only. Not real bets.",
-  "updated_london": "2026-11-22 19:45",
+  "updated_london": "2026-11-23 07:25",
   "bets": [],
   "days": []
 }

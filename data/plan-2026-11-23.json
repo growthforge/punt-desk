@@ -1,21 +1,174 @@
 {
   "date": "2026-11-23",
   "day": "Monday",
-  "status": "pending",
-  "headline": "Plan coming by 08:30 London",
-  "summary": "The full plan (free-bet offers first, then extra-place races, any value picks, and the line-up check) is built from 07:00 and published here. No picks yet.",
-  "updated_london": "2026-11-22 19:45",
-  "matched_betting": [],
-  "extra_place": [],
+  "status": "open",
+  "headline": "Free-bet offer first, extra places to watch, no value bets yet",
+  "summary": "1) If you've never had a Betfred account, the Betfred sign-up offer (bet £10, get £30 sports + £20 bet builder free bets) is worth about £20 locked in by matched betting. 2) 11 races today pay an extra place (Huntingdon, Bangor, Newcastle, Wolverhampton; none at Kempton). They're on the watch list, not picks. 3) No value bets: every bookie price on Brentford v Everton is below the Betfair fair price. Practice wallet: 0 paper bets so far, £100.00.",
+  "updated_london": "2026-11-23 07:25",
+  "matched_betting": [
+    {
+      "offer": "Bet £10, get £30 Sports Free Bets + £20 Bet Builder Free Bets (new customers only)",
+      "book": "Betfred (UK licensed, not part of Flutter/Entain/Evoke)",
+      "steps": [
+        "Only do this if you have NEVER had a Betfred account. Please tell me which bookies you already have accounts with.",
+        "You need a Betfair Exchange account with about £90 in it (£27 for step 4 + £58 for step 7). Both bets are placed by you; I never place anything.",
+        "Join Betfred and deposit £10 with a debit card (the T&Cs say there are payment exclusions, so use a debit card, not PayPal or Skrill).",
+        "QUALIFYING BET: back £10 at evens (2.0) or bigger at Betfred. Example: Brentford v Everton DRAW @ 3.6. On Betfair, LAY the same draw: £9.86 at 3.7 (liability £26.63). Either way you lose about £0.63. Use the real prices at the time with the calculator.",
+        "The bet must settle within 7 days. The free bets arrive within 24 hours of settlement and expire after 7 days.",
+        "FREE BET (£30 sports): back a selection at odds of about 3.5-5 with the free bet (stake not returned), and lay it on Betfair.",
+        "Example: free bet at 3.6, lay £21.37 at 3.7 (liability £57.70), and you keep about £20.30 whatever happens. At 5.0/5.2 you keep about £22.14 but the liability is £97.86.",
+        "The £20 Bet Builder free bets can't be laid cleanly. Treat them as fun-pot bets, not locked profit.",
+        "Calculator: python3 matched_bet_calc.py --mode snr --stake 30 --back X --lay Y --commission 0.05 (or I'll run it for you). Re-check both prices just before you place."
+      ],
+      "est_profit": 19.67,
+      "source": "betfred.com homepage offer terms, read in browser (full T&Cs page not opened)",
+      "fetched_london": "07:09"
+    }
+  ],
+  "extra_place": [
+    {
+      "time": "13:15",
+      "race": "Huntingdon hcap hurdle (12 ran)",
+      "book": "William Hill, bet365, Unibet, BetMGM, BoyleSports, Virgin",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "William Hill racecard (own page: 'EW 1/5 Odds 4 Places') + KTB tracker",
+      "fetched_london": "07:15"
+    },
+    {
+      "time": "13:35",
+      "race": "Bangor hcap chase (12)",
+      "book": "William Hill, bet365, Unibet, BetMGM, BoyleSports, Midnite",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "14:18",
+      "race": "Huntingdon hcap chase (7)",
+      "book": "bet365, Virgin Bet, Spreadex",
+      "places": "3 @ 1/5",
+      "note": "3 places at 1/5 instead of the usual 2 at 1/4. Same 2% E/W EV rule. No pick yet.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "15:30",
+      "race": "Newcastle AW apprentice hcap (14)",
+      "book": "William Hill, bet365, Ladbrokes, Coral, Betfred, Unibet, BoyleSports, Midnite",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "16:30",
+      "race": "Wolverhampton AW hcap (13)",
+      "book": "William Hill, bet365, Betfred, Unibet, BetMGM, BoyleSports",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "William Hill racecard (own page: 'EW 1/5 Odds 4 Places') + KTB tracker",
+      "fetched_london": "07:15"
+    },
+    {
+      "time": "18:30",
+      "race": "Wolverhampton AW hcap (12)",
+      "book": "William Hill, bet365, Unibet, BetMGM, Midnite",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "18:45",
+      "race": "Newcastle AW hcap (14)",
+      "book": "William Hill, bet365, Ladbrokes, Coral, Betfred, Unibet",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "19:00",
+      "race": "Wolverhampton AW hcap Div I (12)",
+      "book": "several (see tracker)",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "19:15",
+      "race": "Newcastle AW hcap (14)",
+      "book": "several (see tracker)",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "19:30",
+      "race": "Wolverhampton AW hcap Div II (12)",
+      "book": "several (see tracker)",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "time": "19:45",
+      "race": "Newcastle AW hcap (14)",
+      "book": "several (see tracker)",
+      "places": "4 @ 1/5",
+      "note": "Pays 4 places at 1/5 instead of the usual 3 at 1/4, so it isn't automatically better. Only back E/W if the each-way EV vs Betfair Exchange is at least 2% about 15-30 min before the off. No pick yet, because the exchange is too thin this early.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    }
+  ],
   "value_picks": [],
   "checks": [
     {
-      "area": "Football (UK)",
-      "events": ["Brentford v Everton, 20:00"],
-      "result": "No pick yet. Re-check on Monday and again about 18:45 once line-ups are out.",
-      "source": "Betfred vs Betfair Exchange",
-      "fetched_london": "2026-11-22 evening"
+      "area": "Football: Brentford v Everton, 20:00",
+      "events": [
+        "Fair (de-vigged Betfair): Brentford 2.26 · Draw 3.64 · Everton 3.53",
+        "Best books: 2.15 / 3.6 / 3.3"
+      ],
+      "result": "No value. EV: Brentford -5.0%, Draw -1.0%, Everton -6.6% (model estimates). Re-check at about 18:45 once line-ups are out. Only bet if a price beats fair by 3% or more.",
+      "source": "football-data.co.uk fixtures file (prices as at its last refresh, not live)",
+      "fetched_london": "07:08"
+    },
+    {
+      "area": "Football: other fixtures scanned",
+      "events": [
+        "8 events today"
+      ],
+      "result": "0 spots with 3% or more edge vs Betfair Exchange.",
+      "source": "value_finder on football-data.co.uk fixtures",
+      "fetched_london": "07:08"
+    },
+    {
+      "area": "Racing: Kempton",
+      "events": [
+        "Kempton (AW) card"
+      ],
+      "result": "No extra-place races listed. Nothing to do.",
+      "source": "kickthebookies.com extra-places tracker (terms as at 07:08)",
+      "fetched_london": "07:08"
+    },
+    {
+      "area": "Ledger and limits",
+      "events": [
+        "ledger.py report"
+      ],
+      "result": "OK: 0 bets, no stop rules hit.",
+      "source": "local ledger",
+      "fetched_london": "07:08"
     }
   ],
-  "notes": []
+  "notes": [
+    "Every probability is a model estimate. Re-check live prices before staking. No guaranteed wins.",
+    "Bookies sometimes change extra-place terms during the day, so confirm the E/W terms on the bookie's own race page before betting.",
+    "Practice wallet: matched-betting and extra-place items aren't paper bets until a price passes the rules. 0 paper bets so far."
+  ]
 }

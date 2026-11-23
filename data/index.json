@@ -1,7 +1,19 @@
 {
   "latest": "2026-11-23",
   "days": [
-    {"date": "2026-11-23", "status": "pending", "headline": "Plan coming by 08:30 London", "bets": 0, "pnl": 0},
-    {"date": "2026-11-22", "status": "settled", "headline": "No-value night, 0 bets (football + greyhound checks)", "bets": 0, "pnl": 0}
+    {
+      "date": "2026-11-23",
+      "status": "open",
+      "headline": "Free-bet offer first, extra places to watch, no value bets yet",
+      "bets": 0,
+      "pnl": 0
+    },
+    {
+      "date": "2026-11-22",
+      "status": "settled",
+      "headline": "No-value night, 0 bets (football + greyhound checks)",
+      "bets": 0,
+      "pnl": 0
+    }
   ]
 }
